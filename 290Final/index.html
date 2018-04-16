@@ -1,0 +1,87 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class = "navbar-bg">
+    <div class = "navbar">
+      <div class = "option"><a href="#about">About</a></div>
+      <div class = "option"><a href="#features">Features</a></div>
+      <div class = "logo">
+        <div class = "LF-logo"></div>
+      </div>
+      <div class = "option"><a href="#authors">Authors</a></div>
+      <div class = "option"><a href="#updates">Updates</a></div>
+    </div>
+  </div>
+
+  <div class="Information">
+    <div id= "about" class = "app_intro">
+      <div class = "app_intro_title">What is Lost & Found?</div>
+      <div class = "app_intro_text">
+          Lost & Found is an Android app for reporting lost and found items on Duke Campus. If you lost your personal items at a specific location, you can simply post a LOST request at the location. Or if you find any lost item, you can take a picture of the item and post it to our app to look for the owner. Our app also supports in-mail messaging which allows users to communicate with one another easily.
+      </div>
+    </div>
+
+    <div id="features" class = "app_features">
+      <div class = "app_features_title">What are our features? </div>
+        <div class = "app_features_text">
+          <div class = "entry">
+            <div class = "feature_name">Post Lost or Found</div>
+            <img src= "post.jpg" >
+            <div class = "feature_des">
+              Users can post a lost or found note. In the note page, the user can pin the specific location of the item found or lost on the map and add detailed descriptions such as photos to the item. All post information is stored in our Firebase database. <br/><br/>
+            </div>
+          </div>
+
+          <div class = "entry">
+            <div class = "feature_name">Search by Category</div>
+            <img src = "search.png" >
+            <div class = "feature_des">On our main page, users can directly search the items that are lost and not claimed. We categorize lost items in our database to allow users search more efficiently. </div>
+          </div>
+
+          <div class = "entry">
+            <div class = "feature_name">Login & Profile</div>
+            <img src = "login.jpg">
+            <div class = "feature_des">In order to use our post feature, user have to login in to our app and create their own profile with their basic info. Within their profile, they can send messages to other users and view the posts they created. We use the Firebase Authentication API to help us realize the goal. All users' information will be stored in our Firebase database.</div>
+          </div>
+
+          <div class = "entry">
+            <div class = "feature_name">Camera & Messaging & GPS</div>
+            <img src = "camera.jpg">
+            <div class = "feature_des">(Camera)Users can first use their camera to take photos of items found or lost and add them to the post.<br/>
+              (Messaging)The messaging function allows logged in users to send messages to one another.
+              <br/>(GPS)The GPS feature allows users to directly pin the location of the item.
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+    <div class="authors" id="authors">
+      <div class="author_title">Authors</div>
+      <div class="author_des">
+        The app is developed by Stephen Garrett, Alex Yang, Melissa You and Yuqi Yun.
+        <br/>Below is a rough breakdown of our work and responsibility:
+        <ul>
+        <li>Stephen is mainly responsible for the camera and GPS features.</li>
+        <li>Alex is mainly responsible for user authentication and the Firebase realtime database.</li>
+        <li>Melissa is mainly responsible for UI design and website updates.</li>
+        <li>Yuqi is mainly responsible for the messaging feature.</li></ul>
+      </div>
+    </div>
+
+    <div class="updates" id="updates">
+      <div class="author_title">Update</div>
+      <div class="update_des">
+      We have partially completed the authentication using Firebase Authentication API and have a basic but working main page that allows a user to submit an item with a title, description, and contact info that is then saved in firebase.
+      <br/>We are currently working on the camera, messaging, GPS features and complete remaining activities.
+      <div>
+    </div>
+ </div>
+
+
+ </div>
+</body>
+</html>
